@@ -303,7 +303,7 @@ jobs:
         useVcpkgToolchainFile: true
         buildDirectory: '${{runner.workspace}}/b/ninja'
         # enable for a debug build (1/2)
-        buildWithCMakeArgs: --config RelWithDebInfo
+        buildWithCMakeArgs: --config Debug
         cmakeAppendedArgs: >-
           -G Ninja
           -DCMAKE_PREFIX_PATH=${{ env.QT_PREFIX != '' && env.QT_PREFIX || env.MINGW_BASE_DIR }}
