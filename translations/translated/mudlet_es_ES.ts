@@ -2083,7 +2083,12 @@ the file:
 &quot;%1&quot;
 - look for the (last) report with the title:
 &quot;%2&quot;.</source>
-      <translation type="unfinished"/>
+      <translation>[ ALERTA ] - Se detectó al menos un inconveniente durante la última operación del mapa y
+que se recomienda que revise el informe más reciente en
+el archivo:
+&quot;%1&quot;
+- busque el (último) informe con el título:
+&quot;%2&quot;.</translation>
     </message>
     <message>
       <location filename="../src/TMap.cpp" line="2422"/>
@@ -6523,7 +6528,7 @@ and there is enough space. The copying operation has failed.</source>
     <message>
       <location filename="../src/dlgProfilePreferences.cpp" line="2776"/>
       <source>Where should Mudlet save log files?</source>
-      <translation>Donde debe Mudlet guardar los archivos de registro?</translation>
+      <translation>Dónde debe Mudlet guardar los archivos de registro?</translation>
     </message>
     <message numerus="yes">
       <location filename="../src/dlgProfilePreferences.cpp" line="3214"/>
@@ -6623,7 +6628,7 @@ and there is enough space. The copying operation has failed.</source>
       <location filename="../src/dlgProfilePreferences.cpp" line="3910"/>
       <source>Small icon</source>
       <extracomment>Discord Rich Presence small icon&quot;</extracomment>
-      <translation>Ícono pequeño</translation>
+      <translation>Icono pequeño</translation>
     </message>
     <message>
       <location filename="../src/dlgProfilePreferences.cpp" line="3912"/>
@@ -14146,19 +14151,19 @@ or LUA script</source>
       <location filename="../src/ui/triggers_main_area.ui" line="446"/>
       <source>OR / Multi-item</source>
       <extracomment>This text represents what is shown in the spinBox_lineMargin control when it is at it minimum value and replaces the normal value and the normal prefix and suffix that would otherwise surround it before this or those elements are inserted in the middle of the groupBox_multiLineTrigger and the label_multiLineTrigger text.</extracomment>
-      <translation type="unfinished"/>
+      <translation>OR / Elemento múltiple</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="449"/>
       <source>)</source>
       <extracomment>This text is appended after the numeric value shown in the spin box (so that it and the prefix text is &quot;wrapped&quot; around it), except when the control is set to the special first value when all of them are replaced by that text.</extracomment>
-      <translation type="unfinished"/>
+      <translation>)</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="452"/>
       <source>AND / Multi-line (delta: </source>
       <extracomment>This text is prepended before the numeric value shown in the spin box (so that it and the suffix text is &quot;wrapped&quot; around it), except when the control is set to the special first value when all of them are replaced by that text. For locales using spaces between words ensure a space is left at the end to separate the text from the number that is shown from the control after it.</extracomment>
-      <translation type="unfinished"/>
+      <translation>AND / Multi línea (delta: </translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="465"/>
@@ -14169,12 +14174,12 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="478"/>
       <source>&lt;p&gt;Do not pass whole line to children.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;No pase toda la línea a los niños.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="495"/>
       <source>&lt;p&gt;Enable this to highlight the matching text by changing the fore and background colors to the ones selected here.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Habilite esta opción para resaltar el texto que coincide cambiando los colores de delante y de fondo a los seleccionados aquí.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="551"/>
@@ -14201,12 +14206,12 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="78"/>
       <source>&lt;p&gt;Choose a good, (ideally, though it need not be, unique) name for your trigger or trigger group. This will be displayed in the trigger tree.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Elija un buen nombre (idealmente, aunque no tiene por qué ser único) para el disparador o grupo de disparadores. Esto se mostrará en el árbol de activación.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="124"/>
       <source>&lt;p&gt;Enter one or more commands to use if the given command matches the pattern. (Optional)&lt;/p&gt;&lt;p&gt;This could be another alias or a command to send directly to the game. For complex commands that require modification of variables within this profile, use a Lua script in the editor area below instead. It&apos;s possible to use both this field and a Lua script - the contents of this field will be used before running the script.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Introduzca uno o más comandos para usar si el comando dado coincide con el patrón. (Opcional)&lt;/p&gt;&lt;p&gt;Podría ser otro alias o un comando para enviar directamente al juego. Para comandos complejos que requieren la modificación de variables dentro de este perfil, use un script Lua en el área del editor a continuación. Eso&apos; posible usar tanto este campo como un script Lua - el contenido de este campo se utilizará antes de ejecutar el script.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="127"/>
@@ -14216,17 +14221,17 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="211"/>
       <source>&lt;p&gt;Match all occurrences of the pattern in the line.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Coincide con todos los acontecimientos del patrón en la línea.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="440"/>
       <source>&lt;p&gt;Within how many lines must all conditions be true to fire the trigger?&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;¿Dentro de cuántas líneas deben cumplirse todas las condiciones para activar el disparador?&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="488"/>
       <source>match all</source>
-      <translation type="unfinished"/>
+      <translation>coincidir con todos</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="302"/>
@@ -14237,17 +14242,17 @@ or LUA script</source>
       <location filename="../src/ui/triggers_main_area.ui" line="371"/>
       <source>&lt;p&gt;Sound file to play when the trigger fires.&lt;/p&gt;</source>
       <comment>This is the tooltip for the QLineEdit that shows - but does not permit changing - the sound file used for a trigger.</comment>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Archivo de sonido a reproducir cuando el disparador se active.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="393"/>
       <source>&lt;p&gt;Click to remove the sound file set for this trigger.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Haga clic para eliminar el conjunto de archivos de sonido para este disparador.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/triggers_main_area.ui" line="501"/>
       <source>highlight</source>
-      <translation type="unfinished"/>
+      <translation>destacar</translation>
     </message>
   </context>
   <context>
@@ -14255,17 +14260,17 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/trigger_pattern_edit.ui" line="124"/>
       <source>Foreground color ignored</source>
-      <translation type="unfinished"/>
+      <translation>Color del primer plano ignorado</translation>
     </message>
     <message>
       <location filename="../src/ui/trigger_pattern_edit.ui" line="148"/>
       <source>Background color ignored</source>
-      <translation type="unfinished"/>
+      <translation>Color de fondo ignorado</translation>
     </message>
     <message>
       <location filename="../src/ui/trigger_pattern_edit.ui" line="175"/>
       <source>match on the prompt line</source>
-      <translation type="unfinished"/>
+      <translation>coincide en la línea del mensaje</translation>
     </message>
   </context>
   <context>
@@ -14278,7 +14283,7 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="94"/>
       <source>⏴ Key type:</source>
-      <translation type="unfinished"/>
+      <translation>⏴ Tipo de clave:</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="81"/>
@@ -14289,7 +14294,7 @@ or LUA script</source>
       <location filename="../src/ui/vars_main_area.ui" line="114"/>
       <location filename="../src/ui/vars_main_area.ui" line="171"/>
       <source>Auto-Type</source>
-      <translation type="unfinished"/>
+      <translation>Auto-tipo</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="84"/>
@@ -14299,7 +14304,7 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="107"/>
       <source>&lt;p&gt;Tables can store values either in a list, and/or a hashmap.&lt;/p&gt;&lt;p&gt;In a &lt;b&gt;list&lt;/b&gt;, &lt;i&gt;unique indexed keys&lt;/i&gt; represent values - so you can have values at &lt;i&gt;1, 2, 3...&lt;/i&gt;&lt;/p&gt;&lt;p&gt;In a &lt;b&gt;map&lt;/b&gt; {a.k.a. an &lt;i&gt;associative array}&lt;/i&gt;, &lt;i&gt;unique keys&lt;/i&gt; represent values - so you can have values under any identifier you would like (theoretically even a function or other lua entity although this GUI only supports strings).&lt;/p&gt;&lt;p&gt;This, for a newly created table (group) selects whenever you would like your table to be an indexed or an associative one.&lt;/p&gt;&lt;p&gt;In other cases it displays other entities (&lt;span style=&quot; font-style:italic;&quot;&gt;functions&lt;/span&gt;) which cannot be modified from here.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Las tablas pueden almacenar valores en una lista y/o en un mapa hash.&lt;/p&gt;&lt;p&gt;En un &lt;b&gt;lista&lt;/b&gt;, &lt;i&gt;Claves indexadas únicas&lt;/i&gt; representar valores, por lo que puede tener valores en &lt;i&gt;1, 2, 3...&lt;/i&gt;&lt;/p&gt;&lt;p&gt;En un &lt;b&gt;mapa&lt;/b&gt; {a.k.a. un &lt;i&gt;matriz asociativa}&lt;/i&gt;, &lt;i&gt;Claves únicas&lt;/i&gt; representar valores: por lo que puede tener valores bajo cualquier identificador que desee (teóricamente, incluso una función u otra entidad lua, aunque esta GUI solo admite cadenas).&lt;/p&gt;&lt;p&gt;Esto, para una tabla recién creada (grupo) selecciona cuando desee que su tabla sea indexada o asociativa.&lt;/p&gt;&lt;p&gt;En otros casos, muestra otras entidades (&lt;span style=&quot; font-style:italic;&quot;&gt;Funciones&lt;/span&gt;) que no se puede modificar desde aquí.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="119"/>
@@ -14309,7 +14314,7 @@ or LUA script</source>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="124"/>
       <source>index (integer)</source>
-      <translation type="unfinished"/>
+      <translation>índice (entero)</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="129"/>
@@ -14322,12 +14327,14 @@ or LUA script</source>
       <source>function
 (cannot create
 from GUI)</source>
-      <translation type="unfinished"/>
+      <translation>función
+(no se puede crear
+desde GUI)</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="144"/>
       <source>&lt;p&gt;If checked this item (and its children, if applicable) does not show in area to the left unless &lt;b&gt;Show normally hidden variables&lt;/b&gt; is checked.&lt;/p&gt;</source>
-      <translation type="unfinished"/>
+      <translation>&lt;p&gt;Si está marcado, este elemento (y sus elementos secundarios, si corresponde) no se muestra en el área de la izquierda a menos que &lt;b&gt;Mostrar variables normalmente ocultas&lt;/b&gt; está comprobado.&lt;/p&gt;</translation>
     </message>
     <message>
       <location filename="../src/ui/vars_main_area.ui" line="147"/>
