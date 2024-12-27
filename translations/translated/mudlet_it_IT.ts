@@ -6007,7 +6007,7 @@ Utilizzi</translation>
       <location filename="../src/ui/dlgPackageExporter.ui" line="175"/>
       <location filename="../src/ui/dlgPackageExporter.ui" line="333"/>
       <source>(recommended)</source>
-      <translation type="unfinished"/>
+      <translation>(consigliato)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="213"/>
@@ -6023,13 +6023,14 @@ Utilizzi</translation>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="268"/>
       <source>one-line description (recommended)</source>
-      <translation type="unfinished"/>
+      <translation>descrizione breve (consigliato)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="275"/>
       <source>Description
 (e.g. how to use)</source>
-      <translation type="unfinished"/>
+      <translation>Descrizione
+(es. istruzioni d'uso)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="289"/>
@@ -6058,7 +6059,31 @@ Further reading material. e.g. a link to the Mudlet wiki, forums, Github package
 
 * https://wiki.mudlet.org/w/Manual:Best_Practices#Package_and_Module_best_practices
 * [Link 2 might be a webpage](https://example.org)</source>
-      <translation type="unfinished"/>
+      <translation>(consigliato) 
+
+Questa descrizione viene mostrata nel Gestore package. Questo campo supporta la formattazione Commonmark. Utilizza le seguenti indicazioni come linea guida per sapere cosa inserire in questo campo.
+
+### Descrizione
+
+Una descrizione completa delle funzionalità del tuo package compreso i giochi supportati. Specifica se il package ha funzionalità di auto-aggiornamento, in caso contrario inserisci un link per ottenere l'ultima versione.
+
+### Utilizzo
+
+Se il package fornisce alias, mostra alcuni esempi e descrivi il funzionamento.
+
+`&gt; alias_1`
+
+    funzionamento alias_1  -- indentato di quattro spazi
+    altre informazioni        -- per esempio un pezzo di codice
+
+Se il package crea una GUI potresti aggiungere alcune immagini esplicative, puoi trascinarle direttamente in questo editor e saranno incluse automaticamente.
+
+### Altro
+
+Inserisci altro materiale utile, per esempio un link alla wiki di mudlet, al forum, al repository del tuo package o al suo sito internet.
+
+* https://wiki.mudlet.org/w/Manual:Best_Practices#Package_and_Module_best_practices
+* [pagine web del package](https://example.org)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="330"/>
@@ -6194,17 +6219,17 @@ Further reading material. e.g. a link to the Mudlet wiki, forums, Github package
       <location filename="../src/dlgPackageExporter.cpp" line="365"/>
       <source>package name</source>
       <extracomment>package name will be added to other fields in the &apos;required fields missing: ...&apos; tooltip when it&apos;s missing</extracomment>
-      <translation type="unfinished"/>
+      <translation>nome package</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="387"/>
       <source>Required field missing: %1</source>
-      <translation type="unfinished"/>
+      <translation>Campo richiesto mancante: %1</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="390"/>
       <source>Export package</source>
-      <translation type="unfinished"/>
+      <translation>Esporta package</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="951"/>
@@ -7875,7 +7900,7 @@ Questo alias &apos;non è corretto&apos; perchè continuerebbe ad essere eseguit
     <message>
       <location filename="../src/dlgTriggerEditor.cpp" line="4563"/>
       <source>This item is part of a package. To best preserve your changes, copy this item before editing as package upgrades may overwrite modifications.</source>
-      <translation type="unfinished"/>
+      <translation>Questo elemento fa parte di un package. Effettuane una copia prima di modificare questo package perché eventuali aggiornamenti potrebbero sovrascrivere il tuo lavoro.</translation>
     </message>
     <message>
       <location filename="../src/dlgTriggerEditor.cpp" line="5784"/>
@@ -9450,7 +9475,7 @@ Non è prevista NESSUNA GARANZIA, nella misura consentita dalla legge.</translat
     <message>
       <location filename="../src/ui/main_window.ui" line="422"/>
       <source>Show changelog</source>
-      <translation type="unfinished"/>
+      <translation>Mostra il changelog</translation>
     </message>
     <message>
       <location filename="../src/ui/main_window.ui" line="427"/>
