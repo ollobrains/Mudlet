@@ -2682,17 +2682,17 @@ it has not been possible to salvage this, it has been lost!</source>
     <message>
       <location filename="../src/TRoomDB.cpp" line="504"/>
       <source>Area with ID %1 already exists!</source>
-      <translation type="unfinished"/>
+      <translation>¡El área con ID %1 ya existe!</translation>
     </message>
     <message>
       <location filename="../src/TRoomDB.cpp" line="523"/>
       <source>An Unnamed Area is (no longer) permitted!</source>
-      <translation type="unfinished"/>
+      <translation>¡Un área sin nombre (ya no) está permitida!</translation>
     </message>
     <message>
       <location filename="../src/TRoomDB.cpp" line="527"/>
       <source>An area called %1 already exists!</source>
-      <translation type="unfinished"/>
+      <translation>¡Ya existe una área llamada %1!</translation>
     </message>
     <message>
       <location filename="../src/TRoomDB.cpp" line="626"/>
@@ -2710,12 +2710,12 @@ Mudlet - is your system running out of memory?</source>
     <message>
       <location filename="../src/TRoomDB.cpp" line="683"/>
       <source>[ ALERT ] - Area with id: %1 expected but not found, will be created.</source>
-      <translation type="unfinished"/>
+      <translation>[ ALERTA ] - Área con ID: %1 esperada pero no encontrada, se creará.</translation>
     </message>
     <message>
       <location filename="../src/TRoomDB.cpp" line="686"/>
       <source>[ ALERT ] - Area with this id expected but not found, will be created.</source>
-      <translation type="unfinished"/>
+      <translation>[ ALERTA ] - Área con esta ID esperada pero no encontrada, será creada.</translation>
     </message>
     <message numerus="yes">
       <location filename="../src/TRoomDB.cpp" line="715"/>
