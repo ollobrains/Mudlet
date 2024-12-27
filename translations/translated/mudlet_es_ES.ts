@@ -1193,7 +1193,7 @@ Accessibility-friendly description for the built-in command line of a console/wi
       <location filename="../src/TCommandLine.cpp" line="1443"/>
       <source>Input line of &quot;%1&quot; window of &quot;%2&quot; profile.</source>
       <extracomment>Accessibility-friendly name to describe the built-in command line of a console/window other than the main one, when more than one profile is loaded, %1 is the name of the window/console and %2 is the name of the profile.</extracomment>
-      <translation type="unfinished"/>
+      <translation>Línea de entrada de &quot;%1&quot; ventana de &quot;%2&quot; perfil.</translation>
     </message>
     <message>
       <location filename="../src/TCommandLine.cpp" line="1457"/>
