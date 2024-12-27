@@ -4538,7 +4538,7 @@ error message was: &quot;%2&quot;.</source>
     <message>
       <location filename="../src/ui/connection_profiles.ui" line="811"/>
       <source>Information</source>
-      <translation type="unfinished"/>
+      <translation>Информация</translation>
     </message>
     <message>
       <location filename="../src/ui/connection_profiles.ui" line="868"/>
