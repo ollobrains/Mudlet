@@ -5928,7 +5928,7 @@ Count</translation>
       <location filename="../src/ui/dlgPackageExporter.ui" line="175"/>
       <location filename="../src/ui/dlgPackageExporter.ui" line="333"/>
       <source>(recommended)</source>
-      <translation type="unfinished"/>
+      <translation>(recommended)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="213"/>
@@ -5944,13 +5944,14 @@ Count</translation>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="268"/>
       <source>one-line description (recommended)</source>
-      <translation type="unfinished"/>
+      <translation>one-line description (recommended)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="275"/>
       <source>Description
 (e.g. how to use)</source>
-      <translation type="unfinished"/>
+      <translation>Description
+(e.g. how to use)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="289"/>
@@ -5979,12 +5980,36 @@ Further reading material. e.g. a link to the Mudlet wiki, forums, Github package
 
 * https://wiki.mudlet.org/w/Manual:Best_Practices#Package_and_Module_best_practices
 * [Link 2 might be a webpage](https://example.org)</source>
-      <translation type="unfinished"/>
+      <translation>(recommended)
+
+This package description is shown in the package manager.  The editor supports Commonmark markdown.  Follow the description below for a thorough example of what to include in your package description.
+
+### Description
+
+A full description of what this package achieves. If the package is game specific then mention that here.  Specify if the package has autoupdating or, if not, add a link in the See Also section below to the code repository.
+
+### Usage
+
+If this package uses aliases, show a few examples and expected output.
+
+`&gt; alias_1`
+
+    output of alias_1  -- indent by four spaces
+    more output        -- for code blocks
+
+If this package is a GUI implementation consider adding screenshots by directly dragging and dropping images into this editor.
+
+### See Also
+
+Further reading material. e.g. a link to the Mudlet wiki, forums, Github package repository or webpage.
+
+* https://wiki.mudlet.org/w/Manual:Best_Practices#Package_and_Module_best_practices
+* [Link 2 might be a webpage](https://example.org)</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="330"/>
       <source>1</source>
-      <translation type="unfinished"/>
+      <translation>1</translation>
     </message>
     <message>
       <location filename="../src/ui/dlgPackageExporter.ui" line="182"/>
@@ -6115,17 +6140,17 @@ Further reading material. e.g. a link to the Mudlet wiki, forums, Github package
       <location filename="../src/dlgPackageExporter.cpp" line="365"/>
       <source>package name</source>
       <extracomment>package name will be added to other fields in the &apos;required fields missing: ...&apos; tooltip when it&apos;s missing</extracomment>
-      <translation type="unfinished"/>
+      <translation>package name</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="387"/>
       <source>Required field missing: %1</source>
-      <translation type="unfinished"/>
+      <translation>Required field missing: %1</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="390"/>
       <source>Export package</source>
-      <translation type="unfinished"/>
+      <translation>Export package</translation>
     </message>
     <message>
       <location filename="../src/dlgPackageExporter.cpp" line="951"/>
@@ -7789,7 +7814,7 @@ Bold HTML tags are used to emphasis that the value is destination room&apos;s we
     <message>
       <location filename="../src/dlgTriggerEditor.cpp" line="4563"/>
       <source>This item is part of a package. To best preserve your changes, copy this item before editing as package upgrades may overwrite modifications.</source>
-      <translation type="unfinished"/>
+      <translation>This item is part of a package. To best preserve your changes, copy this item before editing as package upgrades may overwrite modifications.</translation>
     </message>
     <message>
       <location filename="../src/dlgTriggerEditor.cpp" line="5784"/>
@@ -9345,7 +9370,7 @@ There is NO WARRANTY, to the extent permitted by law.</translation>
     <message>
       <location filename="../src/ui/main_window.ui" line="422"/>
       <source>Show changelog</source>
-      <translation type="unfinished"/>
+      <translation>Show changelog</translation>
     </message>
     <message>
       <location filename="../src/ui/main_window.ui" line="427"/>
