@@ -1,17 +1,38 @@
 {
+  // Always run CMake configure when opening the workspace
   "cmake.configureOnOpen": true,
+
+  // Specify Lua runtime version (e.g., for Lua language server)
   "Lua.runtime.version": "Lua 5.1",
-  // files to exclude from clang-tidy code analysis
+
+  /* 
+   * Example: Exclude certain directories or generated files 
+   * from IntelliSense/clang-tidy analysis in the C/C++ extension.
+   */
   "C_Cpp.files.exclude": {
     "**/3rdparty": true,
     "**/ui_*.h": true,
-    ".cache": true,
+    ".cache": true
+    // If you have build artifacts in a "build/" directory, you could add:
+    // "**/build": true
   },
-  // don't show 3rdparty files in explorer nor search
+
+  /* 
+   * Hide certain folders from the explorer and search. 
+   * e.g., "3rdparty" for external libraries, ".cache" for temporary data.
+   */
   "files.exclude": {
     "3rdparty/": true,
-    ".cache": true,
+    ".cache": true
+    // Add other auto-generated directories:
+    // ".vscode/": true,
+    // "build/": true
   },
+
+  /*
+   * File associations to force certain system headers or special extensions 
+   * to be treated as C++.
+   */
   "files.associations": {
     "typeindex": "cpp",
     "typeinfo": "cpp",
@@ -27,5 +48,26 @@
     "type_traits": "cpp",
     "utility": "cpp",
     "variant": "cpp"
-  }
+  },
+
+  /* 
+   * Optional: To provide custom clang-tidy checks or suppressions. 
+   * Uncomment and adapt to your project.
+   */
+  // "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  // "C_Cpp.codeAnalysis.clangTidy.checks": [
+  //   "*",
+  //   "-fuchsia-*",
+  //   "-llvmlibc-*"
+  // ],
+  // "C_Cpp.codeAnalysis.clangTidy.arguments": [
+  //   "--fix-errors"
+  // ],
+
+  /* 
+   * Optional: If using clang-format, specify a .clang-format file or 
+   * inline the style here. 
+   */
+  // "C_Cpp.clang_format_fallbackStyle": "LLVM",
+  // "C_Cpp.clang_format_style": "file"
 }
